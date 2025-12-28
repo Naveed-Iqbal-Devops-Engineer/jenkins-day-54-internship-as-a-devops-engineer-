@@ -23,6 +23,6 @@ RUN adduser -S appuser
 USER appuser
 
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["serve","-s","/build"]
