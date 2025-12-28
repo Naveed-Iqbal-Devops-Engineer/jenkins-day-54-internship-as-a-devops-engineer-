@@ -17,7 +17,7 @@ WORKDIR /app
 COPY --from=builder /app .
 USER appuser
 
-EXPOSE 5000
+EXPOSE 5001
 
 CMD ["node", "server.js"]
 
